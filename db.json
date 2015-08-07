@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Prodeep",
+    "email": "prodeep@balisoftbiz.com",
+    "address": "232",
+    "username": "prodeep",
+    "avatar": "1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Sandy",
+    "email": "sandeep@balisoftbiz.com",
+    "address": "468",
+    "username": "sandeep",
+    "avatar": "2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "I.P",
+    "email": "indra@balisoftbiz.com",
+    "address": "721",
+    "username": "ip-mishra",
+    "avatar": "3.jpg"
+  }
+]

@@ -1,0 +1,25 @@
+body {
+  background: #eee;
+}
+
+.popup {
+  background: rgba(0, 0, 0, 0.56);
+  padding: 10px;
+  color: #fff;
+  width: 500px;
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  margin-left: -250px;
+}
+
+.popup2 {
+  background: rgba(0, 0, 0, 0.56);
+  padding: 10px;
+  color: #fff;
+  width: 500px;
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  margin-left: -250px;
+}

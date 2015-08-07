@@ -18,7 +18,7 @@
 			<button ng-click="add()" ng-bind="'Add Student'"></button>
 				<ul>
 					<li ng-repeat="student in students">
-						<span ng-bind="student.name"></span><br/>
+						<span ng-bind="student.name"></span><br/> 
 						<span ng-bind="student.email"></span><br/>
 						<span ng-bind="student.address"></span><br/>
 						<span ng-bind="student.username"></span><br/>
@@ -29,28 +29,28 @@
 				<div ng-class="'popup'" ng-show="showPop">
 				<h3>Edit Student</h3>
 					<form ng-submit="save()">
-						Name: <input type="text" ng-model="editor.name" ng-value="editor.name"> <br>
-						Email: <input type="email" ng-model="editor.email" ng-value="editor.email"> <br>
-						Address: <input type="text" ng-model="editor.address" ng-value="editor.address"> <br>
-						UserName: <input type="text" ng-model="editor.username" ng-value="editor.username"> <br>
+						Name: <input type="text" ng-model="editor.name" ng-value="editor.name"> <br> <br>
+						Email: <input type="email" ng-model="editor.email" ng-value="editor.email"> <br> <br>
+						Address: <input type="text" ng-model="editor.address" ng-value="editor.address"> <br> <br>
+						UserName: <input type="text" ng-model="editor.username" ng-value="editor.username"> <br> <br>
 						Image: <select ng-model="editor.avatar" id="">
 							<option ng-repeat="pic in pics" ng-selected="pic == editor.avatar" ng-value="pic" ng-bind="pic"></option>
-						</select> <br>
-						<input type="submit" id="submit" value="Submit" />
+						</select> <br> <br>
+						<input type="submit" id="submit" value="Submit" style="margin-left: 150px;"/>
 						<button ng-click="cancelPop()" ng-bind="'Cancel'"></button>
 					</form>
 				</div>
 				<div ng-class="'popup2'" ng-show="showPop2">
 				<h3>Add Student</h3>
 						<form ng-submit="save2()">
-							Name: <input type="text" ng-model="addition.name"> <br>
-							Email: <input type="email" ng-model="addition.email"> <br>
-							Address: <input type="text" ng-model="addition.address"> <br>
-							UserName: <input type="text" ng-model="addition.username"> <br>
+							Name: <input type="text" ng-model="addition.name"> <br> <br>
+							Email: <input type="email" ng-model="addition.email"> <br> <br>
+							Address: <input type="text" ng-model="addition.address"> <br> <br>
+							UserName: <input type="text" ng-model="addition.username"> <br> <br>
 							Image: <select ng-model="addition.avatar" id="">
 								<option ng-repeat="pic in pics" ng-value="pic" ng-bind="pic"></option>
-							</select> <br>
-							<input type="submit" id="submit" value="Submit" />
+							</select> <br> <br>
+							<input type="submit" id="submit" value="Submit" style="margin-left:150px;"/>
 							<button ng-click="cancelPop2()" ng-bind="'Cancel'"></button>
 						</form>
 					</div>

@@ -3,7 +3,7 @@ body {
 }
 
 .popup {
-	background: rgba(0, 0, 0, 0.56);
+	background: rgba(92, 92, 92, 1);
 	padding: 10px;
 	color: #fff;
 	width: 500px;
@@ -14,7 +14,7 @@ body {
 }
 
  .popup2 {
- 	background: rgba(0, 0, 0, 0.56);
+ 	background: rgba(92, 92, 92, 1); 
 	padding: 10px;
 	color: #fff;
 	width: 500px;
@@ -22,4 +22,22 @@ body {
 	top: 50px;
 	left: 50%;
 	margin-left: -250px;
+ }
+
+ ul {
+ 	list-style: none;
+ 	li {
+ 		float:left;
+ 		margin-right: 20px;
+ 		margin-bottom: 20px;
+ 		img {
+ 			margin-bottom: 10px;
+ 		}
+ 	}
+ }
+
+ form {
+ 	input[type="submit"] {
+ 		margin-right: 10px;
+ 	}
  }

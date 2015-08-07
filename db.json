@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "name": "Prodeep",
-    "email": "prodeep@balisoftbiz.com",
+    "name": "firstname",
+    "email": "test@abc.com",
     "address": "232",
-    "username": "prodeep",
+    "username": "firstname",
     "avatar": "1.jpg"
   },
   {
     "id": "2",
-    "name": "Sandy",
-    "email": "sandeep@balisoftbiz.com",
+    "name": "secondname",
+    "email": "test2@abc.com",
     "address": "468",
-    "username": "sandeep",
+    "username": "secondname",
     "avatar": "2.jpg"
   },
   {
     "id": "3",
-    "name": "I.P",
-    "email": "indra@balisoftbiz.com",
+    "name": "thirdname",
+    "email": "test3@abc.com",
     "address": "721",
-    "username": "ip-mishra",
+    "username": "thirdname",
     "avatar": "3.jpg"
   }
 ]
